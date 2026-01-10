@@ -238,28 +238,87 @@
 
                  //.......... ye ha chumtiya tarikaaa........//
 
-let unit = Number(prompt('Enter a unit'))
+// let unit = Number(prompt('Enter a unit'))
 
-let amount = 0;
+// let amount = 0;
 
-if (unit>400){
-        amount = (unit - 400) * 13 
-        unit = 400
-} if (unit>200 && unit <=400){
-        amount = amount + (unit-200) *8
-        unit = 200;
-}if (unit>100 && unit <=200){
-        amount = amount + (unit-100) *6
-        unit = 100;
-}
+// if (unit>400){
+//         amount = (unit - 400) * 13 
+//         unit = 400
+// } if (unit>200 && unit <=400){
+//         amount = amount + (unit-200) *8
+//         unit = 200;
+// }if (unit>100 && unit <=200){
+//         amount = amount + (unit-100) *6
+//         unit = 100;
+// }
 
-   amount = amount + unit *4.2
+//    amount = amount + unit *4.2
 
  
-console.log(amount);
+// console.log(amount);
+
+             //...............ye hai tagda tarikaa .............//
+
+
+// # 6 LOOPS...........//
+
+// for(let i = 1; i<=50; i++){
+//     console.log("hello");
+//  }
+
+// #example........ //
+
+// # 7> print heluu n number of times ...//
+
+
+// let n = (prompt("enter a number"))
+
+// let i ;
+// for(let i = 1; i<=n; i++){
+//         console.log("heluu");
+        
+// }
+// console.log("fail at "+ i)  // ye log  fail hoga 
 
 
 
+// # 8 print natural number upto n //
+
+// let n = Number(prompt("enter a number"))
+
+// for(let i =n; i>=1; i--){
+//         console.log(i);
+        
+// }
+
+
+
+// #9 reverse for loop . print n to 1 //
+
+// let n = Number(prompt("enter a number"))
+
+// for (let i=1; i<=10 ; i++){
+//         console.log(n + "*" + i + "=" + (n*i));
+        
+// }
+
+
+
+// # 10 sum up to n terms ..//
+
+
+// let n = Number(prompt("enter a number"))
+// let sum = 0;
+// for (let i=1; i<=n; i++){
+//         sum = sum + i
+        
+// }
+//  console.log(sum);
+
+
+
+// # 11 
 
 
 
