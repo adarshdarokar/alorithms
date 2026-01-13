@@ -185,7 +185,7 @@
 //    console.log("invalid input")
 // }
 
-               ///............  ye ha chutiya tarika ...............//
+///............  ye ha chutiya tarika ...............//
 
 // let amount = Number(prompt("enter a number"))
 
@@ -200,24 +200,24 @@
 
 // console.log(amount - (dis*amount)/100)
 
-        //............................ye sexmy appraoch .........................//
+//............................ye sexmy appraoch .........................//
 
-               //........................... done ........................//
-
-
+//........................... done ........................//
 
 
 
- // #5  bijli bill calculate karna hai jiii......
 
 
- 
-  // unit              price //
+// #5  bijli bill calculate karna hai jiii......
 
- // upto 1oo         rs 4.2/unit 
- // 101-200          rs 6/unit 
- // 201-400          rs 8/unit 
- // more than 400    rs 13/unit 
+
+
+// unit              price //
+
+// upto 1oo         rs 4.2/unit 
+// 101-200          rs 6/unit 
+// 201-400          rs 8/unit 
+// more than 400    rs 13/unit 
 
 
 // let unit = Number(prompt('Enter a unit'))
@@ -236,7 +236,7 @@
 // console.log(amount);
 
 
-                 //.......... ye ha chumtiya tarikaaa........//
+//.......... ye ha chumtiya tarikaaa........//
 
 // let unit = Number(prompt('Enter a unit'))
 
@@ -255,10 +255,10 @@
 
 //    amount = amount + unit *4.2
 
- 
+
 // console.log(amount);
 
-             //...............ye hai tagda tarikaa .............//
+//...............ye hai tagda tarikaa .............//
 
 
 // # 6 LOOPS...........//
@@ -277,7 +277,7 @@
 // let i ;
 // for(let i = 1; i<=n; i++){
 //         console.log("heluu");
-        
+
 // }
 // console.log("fail at "+ i)  // ye log  fail hoga 
 
@@ -289,7 +289,7 @@
 
 // for(let i =n; i>=1; i--){
 //         console.log(i);
-        
+
 // }
 
 
@@ -300,7 +300,7 @@
 
 // for (let i=1; i<=10 ; i++){
 //         console.log(n + "*" + i + "=" + (n*i));
-        
+
 // }
 
 
@@ -312,7 +312,7 @@
 // let sum = 0;
 // for (let i=1; i<=n; i++){
 //         sum = sum + i
-        
+
 // }
 //  console.log(sum);
 
@@ -322,6 +322,84 @@
 
 
 
+// #12 break and continue 
 
+// let n = 10;
+
+// for(let i =1; i<=n; i++){
+//  if( i == 4) continue //break, continue kar skte ha yaha kuch bhi number deke under 10 ..//
+// console.log(i);
+
+// }
+
+
+// #13 while
+
+// let n = 5
+// let i = 1
+
+// while (i <= n) {
+//         console.log("Haaha!");
+//         i++;
+// }
+
+
+// #14 sum of digit //
+
+// let n = Number(prompt("Enter a number"))
+
+// let sum = 0;
+// while(n>0){
+// let rem = n%10
+// sum = sum + rem;
+// n = Math.floor(n/10)
+// }
+
+// console.log(sum)
+
+
+
+// #15 reverse of number
+
+
+// let n = Number(prompt("enter a number"))
+
+// let rev = 0;
+// while (n>0){
+//    let rem = n%10
+//    rev = (rev * 10) + rem 
+//    n = Math.floor(n/10)
+// }
+// console.log(rev)
+
+
+
+
+// # 16 storng numbers (hold)
+
+// ....   #17 automorphic numbers  ....//
+
+// automorphic means like ex = 25 and iska square ha 625 to iske end me ana chiye 25 to ye automorphic number haii ...//
+
+//  automorphic means like ex = 7 ka square ha 49 to iske last me 7 nhi ha to ye ha non-authomorphic number ...//
+
+// # switch case reh gya ha ..///
+
+
+//# 17__ do while __ ...//
+
+
+// let userInput;
+
+// do {
+//     console.log("helluu duniya");
+//     userInput = prompt("do you want to continue yes/no".toLowerCase())
+// }while (
+//     userInput === 'yes'
+// );
+
+
+
+// # 18 guess the number ....//
 
 
