@@ -402,4 +402,32 @@
 
 // # 18 guess the number ....//
 
+//# 19 sasta calculator ....//
+let userInput;
+do {
+    let num1 = Number(prompt("enter first number"))
+    let num2 = Number(prompt("enter second number"))
+    let operator = prompt("enter valid operator(+,-,*,/)")
 
+    switch (operator) {
+        case '+':
+            console.log('result' + (num1 + num2));
+            break;
+        case '-':
+            console.log('result' + (num1 - num2));
+            break;
+        case '*':
+            console.log('result' + (num1 * num2));
+            break;
+        case '/':
+            if (num2 !== 0)
+                console.log("result" + (num1 * num2));
+            else console.log("please enter a valid number");
+            break; 
+            
+        default:
+            console.log("please enter a valid operator");
+    }
+    userInput = prompt("kya app dubara chalana hai yes/no").toLowerCase()
+
+} while (userInput === 'yes');
