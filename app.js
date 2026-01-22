@@ -10,14 +10,11 @@
 // let y = "world";
 // console.log(typeof(s+y))
 
-
-
 // stirng + int = string(concatination)
 
 // let u = "hello";
 // let h = "10";
 // console.log(typeof(u+h))
-
 
 // int + int = int (arthematic)
 
@@ -25,30 +22,23 @@
 // let g = 40
 // console.log(typeof(r+g))
 
-
-
-
 //................ Type coercion ..............//
 
-// operator ko dkehke type define karna // 
+// operator ko dkehke type define karna //
 // console.log(5 * "2") = 10  //
 // console.log(5 + "2") = 52 //
 // console.log(4 - "2") = 2 //
 
-
-//  accept and print answer // 
+//  accept and print answer //
 
 // let age = Number(prompt("enter a age"))
 // console.log(age)
-
-
 
 // swap two variable via 3 methods //
 
 // # 1
 // let a = 10;
 // let b = 20;
-
 
 // let tem = a;
 
@@ -58,9 +48,6 @@
 // console.log(a , b)
 
 // yaha ek extra container use hua ha //
-
-
-
 
 // # 2
 
@@ -86,8 +73,6 @@
 
 // ye normal hai //
 
-
-
 //..............Pre/Post.................//
 //.........  icretement / decrement + - ..........//
 // #1
@@ -95,13 +80,7 @@
 //   let a = 20 ;
 //   console.log(a++ + ++a)
 
-
-
-
 // .....................done......................./
-
-
-
 
 //.............................Mastering Math functions ...........................//
 
@@ -117,20 +96,15 @@
 // console.log(Math.min(10, 4, 6, 8)) // minimum value written kargea ye //
 // console.log(Math.random()) // koi bhi random digit written karega //
 
-
 // let a= 234.567876567
 // console.log(a.toFixed(0)) // point ke baad koi bhi random ya fixed digits written karega //
-
-
-
 
 // # Question 1> calculate compund interest ........//
 
 // # queation 2 > generate opt //
-//  console.log(Math.floor(Math.random()*9000 + 1000)) // abb isme aa rahi ha random digits // 
+//  console.log(Math.floor(Math.random()*9000 + 1000)) // abb isme aa rahi ha random digits //
 
-//..............done..............// 
-
+//..............done..............//
 
 //........conditional statements.......//
 
@@ -140,7 +114,7 @@
 //  let isLeap = false;
 
 //   if(year % 4 == 0){   // agar 4 se jara ha to leap ha //
-//        if(year % 100==0){  // aur 100 se nhi jara // 
+//        if(year % 100==0){  // aur 100 se nhi jara //
 //   if(year % 400 == 0) isLeap = true
 //        }else{
 //          isLeap = true // to wo leap year ha // agar wo 4 se % ho skta ha toh //
@@ -148,10 +122,7 @@
 //   } else isLeap = false  // intereting baat ye 400 saal me ek baar ata hai tab hi wo leap year khelaata hai //
 //   console.log(isLeap? "leap year":"not a leap year");
 
-
-
 //.................done................//
-
 
 // #4 aajii discount calculate karna hai jii ...
 
@@ -164,7 +135,6 @@
 //        7001 - 9000  = 10%
 
 //      more than 9000 = 200%
-
 
 // to calulate karna ha actually me pay kitna karna haii //
 
@@ -197,31 +167,22 @@
 // else if (amount >9000) dis = 20
 // else console.log("invalid input")
 
-
 // console.log(amount - (dis*amount)/100)
 
 //............................ye sexmy appraoch .........................//
 
 //........................... done ........................//
 
-
-
-
-
 // #5  bijli bill calculate karna hai jiii......
-
-
 
 // unit              price //
 
-// upto 1oo         rs 4.2/unit 
-// 101-200          rs 6/unit 
-// 201-400          rs 8/unit 
-// more than 400    rs 13/unit 
-
+// upto 1oo         rs 4.2/unit
+// 101-200          rs 6/unit
+// 201-400          rs 8/unit
+// more than 400    rs 13/unit
 
 // let unit = Number(prompt('Enter a unit'))
-
 
 // let amount = 0
 // if (amount>=0 && unit<=100) {
@@ -232,9 +193,8 @@
 //         amount = (100 * 4.2) + (100*6) + (unit-200)*8
 // }else if (unit> 400){
 //         amount = (100 * 4.2) + (100*6) + (200)*8 (unit-400) * 13
-// } 
+// }
 // console.log(amount);
-
 
 //.......... ye ha chumtiya tarikaaa........//
 
@@ -243,7 +203,7 @@
 // let amount = 0;
 
 // if (unit>400){
-//         amount = (unit - 400) * 13 
+//         amount = (unit - 400) * 13
 //         unit = 400
 // } if (unit>200 && unit <=400){
 //         amount = amount + (unit-200) *8
@@ -255,11 +215,9 @@
 
 //    amount = amount + unit *4.2
 
-
 // console.log(amount);
 
 //...............ye hai tagda tarikaa .............//
-
 
 // # 6 LOOPS...........//
 
@@ -271,7 +229,6 @@
 
 // # 7> print heluu n number of times ...//
 
-
 // let n = (prompt("enter a number"))
 
 // let i ;
@@ -279,9 +236,7 @@
 //         console.log("heluu");
 
 // }
-// console.log("fail at "+ i)  // ye log  fail hoga 
-
-
+// console.log("fail at "+ i)  // ye log  fail hoga
 
 // # 8 print natural number upto n //
 
@@ -292,8 +247,6 @@
 
 // }
 
-
-
 // #9 reverse for loop . print n to 1 //
 
 // let n = Number(prompt("enter a number"))
@@ -303,10 +256,7 @@
 
 // }
 
-
-
 // # 10 sum up to n terms ..//
-
 
 // let n = Number(prompt("enter a number"))
 // let sum = 0;
@@ -316,13 +266,9 @@
 // }
 //  console.log(sum);
 
-
-
 // # 11  factorial of a number ..//
 
-
-
-// #12 break and continue 
+// #12 break and continue
 
 // let n = 10;
 
@@ -331,7 +277,6 @@
 // console.log(i);
 
 // }
-
 
 // #13 while
 
@@ -342,7 +287,6 @@
 //         console.log("Haaha!");
 //         i++;
 // }
-
 
 // #14 sum of digit //
 
@@ -357,23 +301,17 @@
 
 // console.log(sum)
 
-
-
 // #15 reverse of number
-
 
 // let n = Number(prompt("enter a number"))
 
 // let rev = 0;
 // while (n>0){
 //    let rem = n%10
-//    rev = (rev * 10) + rem 
+//    rev = (rev * 10) + rem
 //    n = Math.floor(n/10)
 // }
 // console.log(rev)
-
-
-
 
 // # 16 storng numbers (hold)
 
@@ -385,9 +323,7 @@
 
 // # switch case reh gya ha ..///
 
-
 //# 17__ do while __ ...//
-
 
 // let userInput;
 
@@ -398,36 +334,128 @@
 //     userInput === 'yes'
 // );
 
-
-
 // # 18 guess the number ....//
 
 //# 19 sasta calculator ....//
-let userInput;
-do {
-    let num1 = Number(prompt("enter first number"))
-    let num2 = Number(prompt("enter second number"))
-    let operator = prompt("enter valid operator(+,-,*,/)")
+// let userInput;
+// do {
+//     let num1 = Number(prompt("enter first number"))
+//     let num2 = Number(prompt("enter second number"))
+//     let operator = prompt("enter valid operator(+,-,*,/)")
 
-    switch (operator) {
-        case '+':
-            console.log('result' + (num1 + num2));
-            break;
-        case '-':
-            console.log('result' + (num1 - num2));
-            break;
-        case '*':
-            console.log('result' + (num1 * num2));
-            break;
-        case '/':
-            if (num2 !== 0)
-                console.log("result" + (num1 * num2));
-            else console.log("please enter a valid number");
-            break; 
-            
-        default:
-            console.log("please enter a valid operator");
+//     switch (operator) {
+//         case '+':
+//             console.log('result' + (num1 + num2));
+//             break;
+//         case '-':
+//             console.log('result' + (num1 - num2));
+//             break;
+//         case '*':
+//             console.log('result' + (num1 * num2));
+//             break;
+//         case '/':
+//             if (num2 !== 0)
+//                 console.log("result" + (num1 * num2));
+//             else console.log("please enter a valid number");
+//             break;
+
+//         default:
+//             console.log("please enter a valid operator");
+//     }
+//     userInput = prompt("kya app dubara chalana hai yes/no").toLowerCase()
+
+// } while (userInput === 'yes');
+
+//.........................................................//
+
+//........................nested looping....................//
+
+// # pattern..................//
+
+// *****
+// *****
+// *****
+// *****
+// *****
+
+
+// for (let i = 1; i <= 5; i++) {
+//   for (let k = 1; k <= 5; k++) {
+//     process.stdout.write("*");
+//   }
+//   console.log();
+// }
+
+
+
+
+//............. Q ..............//
+
+// *
+// **
+// ***
+// ****
+// *****
+
+// const prompt = require("prompt-sync")()
+// let n = prompt("enter a number")
+//  for (let i = 1; i<=n; i++){
+// for (let k = 1; k<=i; k++){
+//     process.stdout.write("*")
+// }
+// console.log()
+// }   
+
+
+
+//1      a
+//12     ab
+//123    abc
+//1234   abcd
+//12345  abcde
+
+
+//.............numbers.............//
+// const prompt = require("prompt-sync")()
+// let n = prompt("enter a number")
+//  for (let i = 1; i<=n; i++){
+// for (let k = 0; k<=i; k++){
+//     process.stdout.write(k+"")
+// }
+// console.log()
+// } 
+
+
+//.............letters.............//
+// const prompt = require("prompt-sync")()
+// let n = prompt("enter a number")
+//  for (let i = 1; i<=n; i++){
+// for (let k = 0; k<=i; k++){
+//     process.stdout.write(String.fromCharCode(65+k))
+// }
+// console.log()
+// } 
+
+
+//........inverted right angle triangle.......//
+
+// *****
+// ****
+// ***
+// **
+// *
+
+
+
+const prompt = require("prompt-sync")()
+let n = prompt("enter a number")
+let temp = 5;
+for(let i=1; i<=n; i++){
+    for(let j=1; j<=temp; j++){
+process.stdout.write("*")
     }
-    userInput = prompt("kya app dubara chalana hai yes/no").toLowerCase()
+    temp --
+console.log()
+}
 
-} while (userInput === 'yes');
+
