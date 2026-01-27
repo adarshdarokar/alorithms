@@ -378,16 +378,12 @@
 // *****
 // *****
 
-
 // for (let i = 1; i <= 5; i++) {
 //   for (let k = 1; k <= 5; k++) {
 //     process.stdout.write("*");
 //   }
 //   console.log();
 // }
-
-
-
 
 //............. Q ..............//
 
@@ -404,16 +400,13 @@
 //     process.stdout.write("*")
 // }
 // console.log()
-// }   
-
-
+// }
 
 //1      a
 //12     ab
 //123    abc
 //1234   abcd
 //12345  abcde
-
 
 //.............numbers.............//
 // const prompt = require("prompt-sync")()
@@ -423,8 +416,7 @@
 //     process.stdout.write(k+"")
 // }
 // console.log()
-// } 
-
+// }
 
 //.............letters.............//
 // const prompt = require("prompt-sync")()
@@ -434,8 +426,7 @@
 //     process.stdout.write(String.fromCharCode(65+k))
 // }
 // console.log()
-// } 
-
+// }
 
 //........inverted right angle triangle.......//
 
@@ -445,17 +436,128 @@
 // **
 // *
 
+// const prompt = require("prompt-sync")()
+// let n = prompt("enter a number")
+// let temp = 5;
+// for(let i=1; i<=n; i++){
+//     for(let j=1; j<=temp; j++){
+// process.stdout.write("*")
+//     }
+//     temp --
+// console.log()
+// }
+
+// short
+
+// const prompt = require("prompt-sync")()
+// let n = Number(prompt("enter number "))
+
+// for (let i = 1; i <= n; i++) {
+//     console.log("*".repeat(i))
+// }
+
+//..................mirror right angle triangle  ...................//
+
+//         *
+//        **
+//       ***
+//      ****
+//     *****
+
+// const prompt = require("prompt-sync")()
+// let n = Number(prompt("enter number "))
+
+// for (let i = 1; i <= n; i++) {
+
+//     // spaces
+//     for (let j = 1; j <= n - i; j++) {
+//         process.stdout.write(" ")
+//     }
+
+//     // stars
+//     for (let j = 1; j <= i; j++) {
+//         process.stdout.write("*")
+//     }
+
+//     console.log()
+// }
+
+// short
+
+// const prompt = require("prompt-sync")()
+// let n = Number(prompt("enter number "))
+
+// for (let i = 1; i <= n; i++) {
+// console.log(" ".repeat(n - i) + "*".repeat(i))
+// }
+
+//............. Triangle .............//
+
+// const prompt = require("prompt-sync")()
+// let n = (prompt("enter a number"))
+
+// for (let i= 1; i <=n;  i++){
+//     for(let j= 1; j <= n - i; j++ ){
+//         process.stdout.write(" ")
+//     }
+//  for (let j= 1; j <=i;  j++){
+//     process.stdout.write("* ")
+//  }
+// console.log();
+
+// }
+
+// short
+
+// const prompt = require("prompt-sync")()
+// let n = Number(prompt("enter a number"))
+
+// for (let i = 1; i <= n; i++) {
+//     console.log(" ".repeat(n - i) + "* ".repeat(i))
+// }
 
 
-const prompt = require("prompt-sync")()
-let n = prompt("enter a number")
-let temp = 5;
-for(let i=1; i<=n; i++){
-    for(let j=1; j<=temp; j++){
-process.stdout.write("*")
-    }
-    temp --
-console.log()
-}
+
+// . . . . .
+// . . . . .
+// . . . . . // x bana rhe hai .....//
+// . . . . .
+// . . . . .
+
+
+// let prompt = require("prompt-sync")()
+// let n = Number(prompt("enter number"))
+// for (let i= 1; i<= n; i++){
+// for (let j= 1; j<= n; j++){
+//     if (i==j || i+j === n+1){
+//         process.stdout.write("* ")
+//     }else process.stdout.write("  ")
+// }
+//     console.log();
+
+// }
+
+
+//................  ...............//
+
+
+// . . . . .
+// . . . . .
+// . . . . . // v bana rhe hai .....//
+// . . . . .
+// . . . . .
+
+
+// let prompt = require("prompt-sync")()
+// let n = Number(prompt("enter a number"))
+// for (let i = 1; i<=n; i++){
+//     for (let j = 1; j<= (n*2)-1; j++){
+//         if ( i==j || i+j === n*2 ){
+//             process.stdout.write("* ")
+//         }else process.stdout.write("  ")
+//     }
+//     console.log()
+// }
+
 
 
