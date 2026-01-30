@@ -1,5 +1,7 @@
 //....... . . sum of two interger . . ....... //
 
+const { useSyncExternalStore } = require("react");
+
 // let a = 1;
 // let b = 17;
 // console.log(a+b);
@@ -516,14 +518,11 @@
 //     console.log(" ".repeat(n - i) + "* ".repeat(i))
 // }
 
-
-
 // . . . . .
 // . . . . .
 // . . . . . // x bana rhe hai .....//
 // . . . . .
 // . . . . .
-
 
 // let prompt = require("prompt-sync")()
 // let n = Number(prompt("enter number"))
@@ -537,16 +536,13 @@
 
 // }
 
-
 //................  ...............//
-
 
 // . . . . .
 // . . . . .
 // . . . . . // v bana rhe hai .....//
 // . . . . .
 // . . . . .
-
 
 // let prompt = require("prompt-sync")()
 // let n = Number(prompt("enter a number"))
@@ -559,19 +555,13 @@
 //     console.log()
 // }
 
-
-
-
-
 //........Starting arrays......... //
-
 
 //........ Strong numbers .........//
 
 // let prompt = require('prompt-sync')()
 // let n = Number(prompt("enter number"))
 // let copy = n
-
 
 // let ans = 0;
 // while (n > 0) {
@@ -586,11 +576,9 @@
 // if (copy == ans) console.log("takatwar number");
 // else console.log("kamjor number")
 
-
 //................. methods ................//
 
-
-let arr = [10,20,30,40,50];
+// let arr = [10,20,30,40,50];
 
 // arr.push(101)
 // console.log(arr);  // last me add karta ha //
@@ -604,10 +592,147 @@ let arr = [10,20,30,40,50];
 // arr.shift()
 // console.log(arr); // shuru se delete kar deta ha //
 
-// console.log(arr[5]); // to ye merko 50 lake dega //
+// console.log(arr[4]); // to ye merko 50 lake dega //
 
 // console.log(arr.lengh)  //  elements ko count karega //
 
+//.......................................................................//
+
+//...............accept valur from user and assign in the array...........//
+
+// let prompt = require("prompt-sync")()
+// let size = Number(prompt("enter array ka size"))
+// let arr = new Array (size)
+
+// for(let i = 0; i<arr.length; i++){
+//     arr [i] = Number(prompt("enter element"))
+// }
+// console.log(arr);
+
+//............................................................................//
+
+//......... sum of arrays elements .........//
+
+// let prompt = require("prompt-sync")()
+// let size = Number(prompt("enter size"))
+// let arr = new Array(size)
+// let sum = 0;
+
+// for (let i = 0; i<arr.length; i++) {
+//     arr[i] = Number(prompt("enter element"))
+//     sum = sum + arr[i]
+// }
+// console.log("sum  = " + sum);
+
+//......... max elements ..........//
+
+// let arr = [ 100, 500, 10000, 44444, 444, 33333];
+// let max= arr[0];
+
+// for (let i =1; i<arr.length; i++){
+//     if(arr[i]> max){
+//         max = arr [i]
+//     }
+// }
+
+// console.log("max element" + max);
+
+//...........................................................................//
+//............. 1st and second max elem ................///
+
+// let arr = [7, 3, 1, 10, 10 ]
+
+// let max = Math.max(arr[0] , arr[1])
+// let sMax = Math.min(arr[0], arr[1])
+
+// for (let i = 2; i<arr.length; i++){
+//     if(arr[i]> max){
+//         sMax = max;
+//         max = arr[i]
+//     }else if (arr[i]> sMax && arr[i] !=max){
+//         sMax = arr[i];
+//     }
+// }
+// console.log("second Max"+ sMax);
+
+//...............................................................//
+
+//.............. resverse the array ...................//
+
+// let arr = [ 1, 2, 3, 4, 5, 6];
+
+// let temp =  new Array(arr.length)
+// let i = 0;
+
+// for(let j = arr.length-1; j>=0; j--){
+//     temp[i] = arr[j]
+//     i++
+// }
+// console.log(temp);
+
+//...method 2....//
+
+// also knows as 2 pointer algorithm //
+
+// let arr = [1, 2, 3, 4, 5, 6]
+
+// let i = 0, j = arr.length-1;
+
+// while(i<j){
+//     let temp = arr[i];
+//     arr[i] = arr[j]
+//     arr[j] = temp;
+//     i++
+//     j--
+// }
+// console.log(arr);
+
+//...... all zero left and all onces right side...... //
+// aslo known as 2 pointer algorithm ///
+
+// let arr = [1, 0, 1, 0, 0, 1, 0, 1]
+// let i = 0, j = 0;
+
+// while (i < arr.length) {
+//     if (arr[i] == 0) {
+//         let temp = arr[i];
+//         arr[i] = arr[j]
+//         arr[j] = temp;
+//         j++
+//     }
+//     i++
+// }
+// console.log(arr);
 
 
 
+//.............. arrray left rotation by one .............//
+
+// let arr = [1, 2, 3, 4, 5];
+// let temp = arr[0];
+
+// for (let i = 0; i < arr.length - 1; i++) {
+//   arr[i] = arr[i + 1];
+// }
+// arr[arr.length - 1] = temp;
+// console.log(arr);
+
+
+
+
+//.......... arrray left rotation by one ..........//
+
+// let arr = [1,2,3,4,5];
+// let temp = arr[arr.length -1];
+
+// for(let i = arr.length-1; i>0; i--){
+//     arr[i] = arr[i-1];
+// }
+
+// arr[0] = temp
+
+// console.log(arr);
+
+
+
+//.......... 
