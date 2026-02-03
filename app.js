@@ -1,6 +1,6 @@
 //....... . . sum of two interger . . ....... //
 
-const { useSyncExternalStore } = require("react");
+//const { useSyncExternalStore } = require("react"); //
 
 // let a = 1;
 // let b = 17;
