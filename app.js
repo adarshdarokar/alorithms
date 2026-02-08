@@ -24,6 +24,38 @@
 // let g = 40
 // console.log(typeof(r+g))
 
+//...............................................//
+
+
+//....... . . sum of two interger . . ....... //
+
+//const { useSyncExternalStore } = require("react"); //
+
+// let a = 1;
+// let b = 17;
+// console.log(a+b);
+
+// string + string = string (concatenation)
+
+// let s = "hello";
+// let y = "world";
+// console.log(typeof(s+y))
+
+// stirng + int = string(concatination)
+
+// let u = "hello";
+// let h = "10";
+// console.log(typeof(u+h))
+
+// int + int = int (arthematic)
+
+// let r = 20
+// let g = 40
+// console.log(typeof(r+g))
+
+
+
+
 //................ Type coercion ..............//
 
 // operator ko dkehke type define karna //
