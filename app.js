@@ -1,6 +1,6 @@
 //....... . . sum of two interger . . ....... //
 
-const { useSyncExternalStore } = require("react");
+//const { useSyncExternalStore } = require("react"); //
 
 // let a = 1;
 // let b = 17;
@@ -23,6 +23,38 @@ const { useSyncExternalStore } = require("react");
 // let r = 20
 // let g = 40
 // console.log(typeof(r+g))
+
+//...............................................//
+
+
+//....... . . sum of two interger . . ....... //
+
+//const { useSyncExternalStore } = require("react"); //
+
+// let a = 1;
+// let b = 17;
+// console.log(a+b);
+
+// string + string = string (concatenation)
+
+// let s = "hello";
+// let y = "world";
+// console.log(typeof(s+y))
+
+// stirng + int = string(concatination)
+
+// let u = "hello";
+// let h = "10";
+// console.log(typeof(u+h))
+
+// int + int = int (arthematic)
+
+// let r = 20
+// let g = 40
+// console.log(typeof(r+g))
+
+
+
 
 //................ Type coercion ..............//
 
@@ -734,21 +766,7 @@ const { useSyncExternalStore } = require("react");
 // console.log(arr);
 
 
+//.........  arrray left rotation by k elements .......... //
 
 
-
-//.......... ..........//
-
-
-//.......... arrray left rotation by one ..........//
-
-// let arr = [1,2,3,4,5];
-// let temp = arr[arr.length -1];
-
-// for(let i = arr.length-1; i>0; i--){
-//     arr[i] = arr[i-1];
-// }
-
-// arr[0] = temp
-
-// console.log(arr);
+let arr = [1, 2, 3, 4, 5]
