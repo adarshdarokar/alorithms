@@ -787,34 +787,57 @@
 
 
 
-let prompt = require('prompt-sync')()
-let arr = [1, 2, 3, 4, 5];
-let k = Number(prompt('enter a number'))
-k = k % arr.length;
-reverse(arr, 0, k - 1)
-reverse(arr, k, arr.length - 1)
-reverse(arr, 0, arr.length - 1)
+
+//.................THIs is compelete arrray left rotation by k elements  ..............//
+
+// let prompt = require('prompt-sync')()
+// let arr = [1, 2, 3, 4, 5];
+// let k = Number(prompt('enter a number'))
+// k = k % arr.length;
+// reverse(arr, 0, k - 1)
+// reverse(arr, k, arr.length - 1)
+// reverse(arr, 0, arr.length - 1)
 
 
-console.log(arr);
+// console.log(arr);
 
-function reverse(arr, i, j) {
-    while (i < j) {
-        let temp = arr[i]
-        arr[i] = arr[j]
-        arr[j] = temp
+// function reverse(arr, i, j) {
+//     while (i < j) {
+//         let temp = arr[i]
+//         arr[i] = arr[j]
+//         arr[j] = temp
 
-        i++
-        j--
-    }
-}
-
-
+//         i++
+//         j--
+//     }
+// }
 
 
 
 
 
+//.................THIs is compelete arrray Right rotation by k elements  ..............//
 
-//...block swap reverse algorithm... //
+// let prompt = require('prompt-sync')()
+// let arr = [1, 2, 3, 4, 5]
+// let k = Number(prompt('enter a number'))
+// k = k % arr.length;
+
+// reverse(arr, 0, arr.length - 1)
+// reverse(arr, 0, k - 1)
+// reverse(arr, k, arr.length - 1)
+
+// console.log(arr);
+
+// function reverse(arr, i, j) {
+//     while (i< j) {
+//         let temp = arr[i]
+//         arr[i] = arr[j]
+//         arr[j] = temp
+//         i++
+//         j--
+//     }
+// }
+
+//... also known as block swap reverse algorithm... //
 
