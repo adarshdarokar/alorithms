@@ -769,16 +769,52 @@
 //.........  arrray left rotation by k elements .......... //
 
 
+// let arr = [1, 2, 3, 4, 5];
+// console.log(arr);
+
+// let k = 2;
+// for (let j = 1; j <= k; j++) {
+
+
+//     let copy = arr[0]
+//     for (let i = 0; i < arr.length - 1; i++) {
+//         arr[i] = arr[i + 1]
+//     }
+//     arr[arr.length - 1] = copy
+// }
+
+// console.log(arr);
+
+
+
+let prompt = require('prompt-sync')()
 let arr = [1, 2, 3, 4, 5];
-let k = 2;
-for (let j = 1; j <= k; j++) {
+let k = Number(prompt('enter a number'))
+k = k % arr.length;
+reverse(arr, 0, k - 1)
+reverse(arr, k, arr.length - 1)
+reverse(arr, 0, arr.length - 1)
 
 
-    let copy = arr[0]
-    for (let i = 0; i < arr.length - 1; i++) {
-        arr[i] = arr[i + 1]
+console.log(arr);
+
+function reverse(arr, i, j) {
+    while (i < j) {
+        let temp = arr[i]
+        arr[i] = arr[j]
+        arr[j] = temp
+
+        i++
+        j--
     }
-    arr[arr.length - 1] = copy
 }
-    console.log(arr);
+
+
+
+
+
+
+
+
+//...block swap reverse algorithm... //
 
