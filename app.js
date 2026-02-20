@@ -841,3 +841,31 @@
 
 //... also known as block swap reverse algorithm... //
 
+
+
+
+
+
+
+
+
+
+
+//.....Linear Search an array - if element found print the index else-1...../// 
+//... kull milake index find kar rhe ha ...//
+
+
+let prompt = require('prompt-sync')()
+let target = Number(prompt('enter a number'))
+let arr = [10, 4, 5, 15, 18, 90, 20];
+let index = -1
+// index    1, 2, 3, 4,  5,  6, 7  //
+for (let i = 0; i < arr.length; i++) {
+    if (arr[i] == target) {
+        index = i;
+        break;
+    }
+}
+if (index == -1) console.log('elem not found');
+else console.log('elem found at' + index + 'index');
+
